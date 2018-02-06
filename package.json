@@ -1,0 +1,27 @@
+{
+  "name": "org-webhook-tester",
+  "version": "1.0.0",
+  "description": "Test webhooks for an organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payload-app/org-webhook-tester.git"
+  },
+  "author": "hharnisc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/payload-app/org-webhook-tester/issues"
+  },
+  "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
+  "payload": {
+    "scripts": [
+      "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=512"
+    ],
+    "files": [
+      "generatedfile.dat"
+    ]
+  }
+}
