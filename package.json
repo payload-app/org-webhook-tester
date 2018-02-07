@@ -22,6 +22,7 @@
     ],
     "files": [
       "generatedfile.dat"
-    ]
+    ],
+    "increaseThreshold": 5.00
   }
 }
