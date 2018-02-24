@@ -18,9 +18,9 @@
   "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
   "payload": {
     "scripts": [
-      "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=256",
-      "dd if=/dev/zero of=generatedfile2.dat  bs=1024  count=256",
-      "dd if=/dev/zero of=generatedfile3.dat  bs=1024  count=256"
+      "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=128",
+      "dd if=/dev/zero of=generatedfile2.dat  bs=1024  count=128",
+      "dd if=/dev/zero of=generatedfile3.dat  bs=1024  count=128"
     ],
     "files": [
       "generatedfile.dat",
