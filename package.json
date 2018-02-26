@@ -19,6 +19,7 @@
   "payload": {
     "scripts": [
       "env",
+      "env",
       "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=1024",
       "dd if=/dev/zero of=generatedfile2.dat  bs=1024  count=1024",
       "dd if=/dev/zero of=generatedfile3.dat  bs=1024  count=1024"
