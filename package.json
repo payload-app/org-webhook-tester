@@ -19,6 +19,7 @@
   "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
   "payload": {
     "scripts": [
+      "npm install",
       "npm run build"
     ],
     "files": [
