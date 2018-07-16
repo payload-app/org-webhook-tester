@@ -4,7 +4,8 @@
   "description": "Test webhooks for an organization",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=512"
   },
   "repository": {
     "type": "git",
@@ -18,14 +19,10 @@
   "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
   "payload": {
     "scripts": [
-      "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=512",
-      "dd if=/dev/zero of=generatedfile2.dat  bs=1024  count=2048",
-      "dd if=/dev/zero of=generatedfile3.dat  bs=1024  count=512"
+      "npm run build"
     ],
     "files": [
-      "generatedfile.dat",
-      "generatedfile2.dat",
-      "generatedfile3.dat"
+      "generatedfile.dat"
     ]
   }
 }
