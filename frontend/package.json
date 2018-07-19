@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=1024"
+    "build": "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=512"
   },
   "repository": {
     "type": "git",
