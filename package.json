@@ -22,6 +22,9 @@
     ],
     "files": [
       "frontend/generatedfile.dat"
+    ],
+    "assetManifests": [
+      "build/asset-manifest.json"
     ]
   }
 }
