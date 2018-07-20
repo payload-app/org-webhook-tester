@@ -18,10 +18,7 @@
   "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
   "payload": {
     "scripts": [
-      "pushd frontend",
-      "npm install",
-      "npm run build",
-      "popd"
+      "cd frontend && npm install && npm run build"
     ],
     "files": [
       "frontend/generatedfile.dat"
