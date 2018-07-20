@@ -24,7 +24,7 @@
       "frontend/generatedfile.dat"
     ],
     "assetManifests": [
-      "build/asset-manifest.json"
+      "frontend/build/asset-manifest.json"
     ]
   }
 }
