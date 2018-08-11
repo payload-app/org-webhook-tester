@@ -4,7 +4,8 @@
   "description": "Test webhooks for an organization",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "dd if=/dev/zero of=generatedfile.dat  bs=1024  count=512 && cd build && mkdir static && cd static && dd if=/dev/zero of=generatedfile2.dat  bs=1024  count=512"
   },
   "repository": {
     "type": "git",
@@ -15,16 +16,5 @@
   "bugs": {
     "url": "https://github.com/payload-app/org-webhook-tester/issues"
   },
-  "homepage": "https://github.com/payload-app/org-webhook-tester#readme",
-  "payload": {
-    "scripts": [
-      "cd frontend && npm install && npm run build"
-    ],
-    "files": [
-      "frontend/generatedfile.dat"
-    ],
-    "assetManifests": [
-      "frontend/build/asset-manifest.json"
-    ]
-  }
+  "homepage": "https://github.com/payload-app/org-webhook-tester#readme"
 }
